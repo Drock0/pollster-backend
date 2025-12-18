@@ -20,6 +20,7 @@
   "license": "ISC",
   "dependencies": {
     "@hirosystems/chainhooks-client": "^1.0.0",
+    "@sinclair/typebox": "^0.34.41",
     "cors": "^2.8.5",
     "dotenv": "^17.2.3",
     "express": "^5.2.1"
