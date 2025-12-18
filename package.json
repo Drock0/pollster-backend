@@ -1,0 +1,34 @@
+{
+  "name": "pollster-backend",
+  "version": "1.0.0",
+  "description": "Backend webhook server for the [Pollster](https://github.com/YOUR_USERNAME/Pollster) voting smart contract on Stacks blockchain.",
+  "type": "module",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "start": "node dist/server.js",
+    "build": "tsc",
+    "type-check": "tsc --noEmit",
+    "register-hooks": "tsx src/register-chainhooks.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github-peter:Clarity-Poll/pollster-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hirosystems/chainhooks-client": "^1.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.0.3",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}

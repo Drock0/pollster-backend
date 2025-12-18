@@ -8,11 +8,11 @@ This Node.js backend integrates with [Hiro Chainhooks](https://docs.hiro.so/chai
 
 ## ✨ Features
 
-- 🔔 **Real-time event processing** - Instantly notified of on-chain activity
-- 🗳️ **Poll tracking** - Monitor poll creation, voting, and closures
-- 🔒 **Secure webhooks** - Validates Chainhook signatures
-- 📊 **Event logging** - Stores all blockchain events locally
-- 🚀 **Easy setup** - Simple Express server with minimal dependencies
+- 🔔 **Official Hiro SDK** - Uses `@hirosystems/chainhooks-client` for type-safe integration
+- 🗳️ **Real-time poll tracking** - Monitor poll creation, voting, and closures
+- 📝 **Event processing** - Handles all contract events with proper type definitions
+- 🚀 **Production ready** - Built with Express, TypeScript, and proper error handling
+- 🔧 **Easy management** - CLI commands for registering and managing chainhooks
 
 ## 🏗️ Architecture
 
